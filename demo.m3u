@@ -1,0 +1,27 @@
+#EXTM3U
+# STB4K Demo — free, legal content only (open movies under Creative Commons and public test streams).
+# Licences and credits: https://binuabraham333-maker.github.io/stb4k-demo/#credits
+#EXTINF:-1 tvg-chno="1" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/live.png" group-title="Demo Live",Live Demo (Unified Streaming)
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/tos-ch.png" group-title="Demo Live",Tears of Steel (HLS)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/bbb-ch.png" group-title="Demo Live",Big Buck Bunny (HLS)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/hls.png" group-title="Demo Live",Apple HLS Sample
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/bbb.jpg" group-title="Open Movies",Big Buck Bunny (2008)
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/sintel.jpg" group-title="Open Movies",Sintel (2010)
+https://archive.org/download/Sintel/sintel-2048-surround.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/tos.jpg" group-title="Open Movies",Tears of Steel (2012)
+https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/ed.jpg" group-title="Open Movies",Elephants Dream (2006)
+https://archive.org/download/ElephantsDream/ed_hd.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/ed.jpg" group-title="Open Series",Blender Open Movies S01E01 Elephants Dream
+https://archive.org/download/ElephantsDream/ed_1024.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/bbb.jpg" group-title="Open Series",Blender Open Movies S01E02 Big Buck Bunny
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/sintel.jpg" group-title="Open Series",Blender Open Movies S01E03 Sintel
+https://archive.org/download/Sintel/sintel-2048-stereo.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/tos.jpg" group-title="Open Series",Blender Open Movies S01E04 Tears of Steel
+https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov

@@ -1,23 +1,21 @@
 #EXTM3U
-# STB4K Demo — free, legal content only: open movies by the Blender Foundation under Creative Commons licences.
-# Every title carries its credit. Full credits and licence links: https://binuabraham333-maker.github.io/stb4k-demo/#credits
-#EXTINF:-1 tvg-chno="1" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/tos-ch.png" group-title="Demo Live",Tears of Steel (HLS) · © Blender Foundation · CC BY 3.0
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/bbb-ch.png" group-title="Demo Live",Big Buck Bunny (HLS) · © Blender Foundation · CC BY 3.0
-https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/bbb.jpg" group-title="Open Movies",Big Buck Bunny (2008) · © Blender Foundation · CC BY 3.0
-https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/sintel.jpg" group-title="Open Movies",Sintel (2010) · © Blender Foundation · CC BY 3.0
-https://archive.org/download/Sintel/sintel-2048-surround.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/tos.jpg" group-title="Open Movies",Tears of Steel (2012) · © Blender Foundation · CC BY 3.0
-https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/ed.jpg" group-title="Open Movies",Elephants Dream (2006) · Orange Open Movie Project / Blender Foundation · CC BY 2.5
-https://archive.org/download/ElephantsDream/ed_hd.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/ed.jpg" group-title="Open Series",Blender Open Movies S01E01 Elephants Dream · Orange Open Movie Project / Blender Foundation · CC BY 2.5
-https://archive.org/download/ElephantsDream/ed_1024.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/bbb.jpg" group-title="Open Series",Blender Open Movies S01E02 Big Buck Bunny · © Blender Foundation · CC BY 3.0
-https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/sintel.jpg" group-title="Open Series",Blender Open Movies S01E03 Sintel · © Blender Foundation · CC BY 3.0
-https://archive.org/download/Sintel/sintel-2048-stereo.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/tos.jpg" group-title="Open Series",Blender Open Movies S01E04 Tears of Steel · © Blender Foundation · CC BY 3.0
-https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
+# stb4k Demo — every video, sound, picture and logo here is made by stb4k (no content from anyone else).
+# Details: https://binuabraham333-maker.github.io/stb4k-demo/
+#EXTINF:-1 tvg-chno="1" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/demo1.png" group-title="Demo Live",stb4k Demo 1
+https://binuabraham333-maker.github.io/stb4k-demo/live/demo1/index.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/demo2.png" group-title="Demo Live",stb4k Demo 2
+https://binuabraham333-maker.github.io/stb4k-demo/live/demo2/index.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/demo3.png" group-title="Demo Live",stb4k Demo 3
+https://binuabraham333-maker.github.io/stb4k-demo/live/demo3/index.m3u8
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-5.1.jpg" group-title="Demo Movies",stb4k 5.1 Audio Test
+https://binuabraham333-maker.github.io/stb4k-demo/movie/stb4k-5.1-audio-test.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-languages.jpg" group-title="Demo Movies",stb4k Two Audio Languages
+https://binuabraham333-maker.github.io/stb4k-demo/movie/stb4k-two-audio-languages.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-subtitles.jpg" group-title="Demo Movies",stb4k English Subtitles
+https://binuabraham333-maker.github.io/stb4k-demo/movie/stb4k-english-subtitles.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-series.jpg" group-title="Demo Series",stb4k Demo Series S01E01 Red
+https://binuabraham333-maker.github.io/stb4k-demo/series/stb4k-demo-series-s01e01.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-series.jpg" group-title="Demo Series",stb4k Demo Series S01E02 Green
+https://binuabraham333-maker.github.io/stb4k-demo/series/stb4k-demo-series-s01e02.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-series.jpg" group-title="Demo Series",stb4k Demo Series S01E03 Blue
+https://binuabraham333-maker.github.io/stb4k-demo/series/stb4k-demo-series-s01e03.mp4

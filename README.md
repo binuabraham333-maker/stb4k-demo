@@ -9,6 +9,9 @@ Published with GitHub Pages:
 - Playlist: https://binuabraham333-maker.github.io/stb4k-demo/demo.m3u
 - Support: https://binuabraham333-maker.github.io/stb4k-demo/support.html
 - Privacy Policy: https://binuabraham333-maker.github.io/stb4k-demo/privacy.html
+- Minimum version: https://binuabraham333-maker.github.io/stb4k-demo/min-version.json — the app (build 35 and later)
+  reads it at start; a lower build shows only "message" and an App Store button. Optional "url": the App Store link.
+  Raise "minBuild" only when every user must update.
 
 ## What is in the Demo
 

@@ -1,21 +1,11 @@
 #EXTM3U
-# stb4k Demo — every video, sound, picture and logo here is made by stb4k (no content from anyone else).
+# STB4K Demo — every video, sound, poster and subtitle here is made by stb4k (no content from anyone else).
 # Details: https://binuabraham333-maker.github.io/stb4k-demo/
-#EXTINF:-1 tvg-chno="1" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/demo1.png" group-title="Demo Live",stb4k Demo 1
-https://binuabraham333-maker.github.io/stb4k-demo/live/demo1/index.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/demo2.png" group-title="Demo Live",stb4k Demo 2
-https://binuabraham333-maker.github.io/stb4k-demo/live/demo2/index.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/demo3.png" group-title="Demo Live",stb4k Demo 3
-https://binuabraham333-maker.github.io/stb4k-demo/live/demo3/index.m3u8
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-5.1.jpg" group-title="Demo Movies",stb4k 5.1 Audio Test
-https://binuabraham333-maker.github.io/stb4k-demo/movie/stb4k-5.1-audio-test.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-languages.jpg" group-title="Demo Movies",stb4k Two Audio Languages
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-showcase.jpg" group-title="STB4K Demo",STB4K Showcase
+https://binuabraham333-maker.github.io/stb4k-demo/movie/stb4k-showcase.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-languages.jpg" group-title="STB4K Demo",STB4K Two Audio Languages
 https://binuabraham333-maker.github.io/stb4k-demo/movie/stb4k-two-audio-languages.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-subtitles.jpg" group-title="Demo Movies",stb4k English Subtitles
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-subtitles.jpg" group-title="STB4K Demo",STB4K English Subtitles
 https://binuabraham333-maker.github.io/stb4k-demo/movie/stb4k-english-subtitles.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-series.jpg" group-title="Demo Series",stb4k Demo Series S01E01 Red
-https://binuabraham333-maker.github.io/stb4k-demo/series/stb4k-demo-series-s01e01.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-series.jpg" group-title="Demo Series",stb4k Demo Series S01E02 Green
-https://binuabraham333-maker.github.io/stb4k-demo/series/stb4k-demo-series-s01e02.mp4
-#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-series.jpg" group-title="Demo Series",stb4k Demo Series S01E03 Blue
-https://binuabraham333-maker.github.io/stb4k-demo/series/stb4k-demo-series-s01e03.mp4
+#EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-5.1.jpg" group-title="STB4K Demo",STB4K 5.1 Surround Test
+https://binuabraham333-maker.github.io/stb4k-demo/movie/stb4k-5.1-surround-test.mp4

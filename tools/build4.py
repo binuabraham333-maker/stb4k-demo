@@ -45,15 +45,16 @@ def title_card(lines, line):
     return items
 
 
-def test_frame(title, line, sec):
-    """Test videos after the title card: the time top right and the title in a lower third (no logo)."""
-    return [
-        {"t": "text", "s": clock(sec), "x": W - 60, "y": 62, "size": 54, "bold": True, "align": "right",
-         "box": "#0B0F1AD0", "pad": 22},
-        {"t": "rect", "x": 0, "y": H - 230, "w": W, "h": 230, "color": "#0B0F1AC8"},
-        {"t": "text", "s": title, "x": 80, "y": H - 200, "size": 76, "bold": True},
-        {"t": "text", "s": line, "x": 82, "y": H - 100, "size": 40, "color": "#C9D2E3"},
-    ]
+def test_frame(title, line, sec, lower=True):
+    """Test videos after the title card: the time top right and the title in a lower third (no logo).
+    lower=False: no lower third (the subtitles film: its subtitle lines sit there)."""
+    items = [{"t": "text", "s": clock(sec), "x": W - 60, "y": 62, "size": 54, "bold": True, "align": "right",
+              "box": "#0B0F1AD0", "pad": 22}]
+    if lower:
+        items += [{"t": "rect", "x": 0, "y": H - 230, "w": W, "h": 230, "color": "#0B0F1AC8"},
+                  {"t": "text", "s": title, "x": 80, "y": H - 200, "size": 76, "bold": True},
+                  {"t": "text", "s": line, "x": 82, "y": H - 100, "size": 40, "color": "#C9D2E3"}]
+    return items
 
 
 def frames(name, seconds, make):
@@ -138,7 +139,9 @@ SUBTITLES = [(0.5, "Welcome to the subtitle test."), (5.5, "This is scene two. S
 def subtitles_frame(s):
     if s < 2:
         return title_card(["English", "Subtitles"], "A subtitle track to try")
-    return test_frame("English Subtitles", "An English subtitle track · ⋯ → Subtitles → English", s) + [
+    return test_frame("English Subtitles", "", s, lower=False) + [
+        {"t": "text", "s": "Turn subtitles on: ⋯ → Subtitles → English", "x": W / 2, "y": 470, "size": 44,
+         "align": "center", "color": "#C9D2E3"},
         {"t": "text", "s": "Scene %d" % (s // 5 + 1), "x": W / 2, "y": 300, "size": 120, "bold": True, "align": "center",
          "box": "#0B0F1AB0", "pad": 30}]
 

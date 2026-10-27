@@ -273,4 +273,6 @@ if __name__ == "__main__":
     build_films()
     build_posters()
     build_playlist()
+    # The 3 live channels (the films played again and again) and demo.m3u with them.
+    subprocess.run([sys.executable, os.path.join(TOOLS, "live4.py"), REPO], check=True)
     print("done")

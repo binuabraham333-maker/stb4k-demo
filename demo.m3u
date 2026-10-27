@@ -1,6 +1,13 @@
 #EXTM3U
 # STB4K Demo — every video, sound, poster and subtitle here is made by stb4k (no content from anyone else).
+# The live channels are the Demo films played again and again.
 # Details: https://binuabraham333-maker.github.io/stb4k-demo/
+#EXTINF:-1 tvg-chno="1" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-showcase.jpg" group-title="STB4K Demo Live",STB4K Live 1 · Showcase
+https://binuabraham333-maker.github.io/stb4k-demo/live/showcase/index.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-languages.jpg" group-title="STB4K Demo Live",STB4K Live 2 · Two Languages
+https://binuabraham333-maker.github.io/stb4k-demo/live/languages/index.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-5.1.jpg" group-title="STB4K Demo Live",STB4K Live 3 · 5.1 Surround
+https://binuabraham333-maker.github.io/stb4k-demo/live/surround/index.m3u8
 #EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-showcase.jpg" group-title="STB4K Demo",STB4K Showcase
 https://binuabraham333-maker.github.io/stb4k-demo/movie/stb4k-showcase.mp4
 #EXTINF:-1 tvg-logo="https://binuabraham333-maker.github.io/stb4k-demo/images/poster-languages.jpg" group-title="STB4K Demo",STB4K Two Audio Languages
